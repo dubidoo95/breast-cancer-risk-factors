@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Section3</title>
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>Section3</strong>
+        </a>
+      </div>
+    </div>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="user_input">
+          <h1 class="fw-light">Select Your Status</h1>
+          <br>          
+          <div class="main">
+            <form action="output", method="POST">
+              <label>age &nbsp;<br>
+                <select name="age_group_5_years">
+                  <option value="18-29" selected>18~29</option>
+                  <option value="30-34">30~34</option>
+                  <option value="35-39">30~39</option>
+                  <option value="40-44">40~44</option>
+                  <option value="45-49">45~49</option>
+                  <option value="50-54">50~54</option>
+                  <option value="55-59">50~59</option>
+                  <option value="60-64">60~64</option>
+                  <option value="65-69">60~69</option>
+                  <option value="70-74">70~74</option>
+                  <option value="75-79">75~79</option>
+                  <option value="80-84">80~84</option>
+                  <option value=">85">over 85</option>
+                </select><br>
+              </label><br><br>          
+              <label>race &nbsp;<br>
+                <select name="race_eth">              
+                  <option value="Non-Hispanic white">White</option>
+                  <option value="Non-Hispanic black">Black</option>
+                  <option value="Hispanic">Hispanic</option>
+                  <option value="Asian/Pacific islander" selected>Asia/Pacific</option>
+                  <option value="Native American">Native American</option>
+                  <option value="Other/mixed">Other</option>
+                </select><br>
+              </label><br><br>
+              <label>family history &nbsp;<br>
+                <select name="first_degree_hx">
+                  <option value="No">No</option>
+                  <option value="Yes">Yes</option>
+                </select><br>
+              </label><br><br>
+              <label>menarche &nbsp;<br>
+                <select name="age_menarche">
+                  <option value="<12">under 12</option>
+                  <option value="12-13" selected>12~13</option>
+                  <option value=">14">over 14</option>
+                </select>
+              </label><br><br>
+              <label>first birth &nbsp;<br>
+                <select name="age_first_birth">
+                  <option value="<20">under 20</option>
+                  <option value="20-24">20~24</option>
+                  <option value="25-25">25~29</option>
+                  <option value=">30">over 30</option>
+                  <option value="Nulliparous" selected>Not Yet</option>
+                </select>
+              </label><br><br>
+              <label>breast density &nbsp;<br>
+                <select name="BIRADS_breast_density">
+                  <option value="Almost entirely fat">very scattered</option>
+                  <option value="Scattered fibroglandular densities">scattered</option>
+                  <option value="Heterogeneously dense">dense</option>
+                  <option value="Extremely dense">very dense</option>
+                </select>
+              </label><br><br>
+              <label>current hrt &nbsp;<br>
+                <select name="current_hrt">
+                  <option value="No" selected>No</option>
+                  <option value="Yes">Yes</option>
+                </select>
+              </label><br><br>
+              <label>menopause &nbsp;<br>
+                <select name="menopaus">
+                  <option value="Pre" selected>Pre</option>
+                  <option value="Post">Post</option>
+                  <option value="Surgical">Surgical</option>
+                </select>
+              </label><br><br>
+              <label>bmi &nbsp;<br>
+                <select name="bmi_group">
+                  <option value="10-24.99" selected>10~25</option>
+                  <option value="25-29.99">25~30</option>
+                  <option value="30-34.99">30~35</option>
+                  <option value=">35">over 35</option>
+                </select>
+              </label><br><br>
+              <label>biophx &nbsp;<br>
+                <select name="biophx">
+                  <option value="No" selected>No</option>
+                  <option value="Yes">Yes</option>
+                </select>
+              </label><br><br>
+              <label>breast cancer history &nbsp;<br>
+                <select name="breast_cancer_history">
+                  <option value="No" selected>No</option>
+                  <option value="Yes">Yes</option>
+                </select>
+              </label><br><br>
+              <input type="submit" value="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
