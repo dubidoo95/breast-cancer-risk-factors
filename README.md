@@ -25,7 +25,7 @@ dataset<br>
 &nbsp;&nbsp;├ validation.csv<br>
 &nbsp;&nbsp;└ data.db<br>
 
-heroku를 통해 flask_app을 실행시키면 작동되도록 설계하였습니다.
+__init__.py 파일을 실행시키면 작동되도록 만들었습니다.
 
 ## 4. Hypothesis
 분석하기 전 저는 두 가지 가설을 세우고 학습을 진행하였습니다. 나이가 많을수록 breast cancer에 걸릴 가능성이 높다, 살이 찔수록 breast cancer에 걸릴 가능성이 높다입니다.
